@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>КнигаЛенд — Кошик</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo"> КнигаЛенд</div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav-link">Каталог</a></li>
+          <li><a href="cart.html" class="nav-link active">Кошик <span class="badge">3</span></a></li>
+          <li><a href="account.html" class="nav-link">Мій акаунт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2 class="section-title">Кошик</h2>
+      <p class="section-desc">Товари, які ви додали до кошика.</p>
+
+      <div class="cart-container">
+        <div class="cart-items">
+
+          <div class="cart-item">
+            <img src="https://covers.openlibrary.org/b/isbn/9786176790839-M.jpg" alt="Тигролови" />
+            <div class="cart-item-info">
+              <h4>Тигролови</h4>
+              <p class="author">Іван Багряний</p>
+              <p class="item-price">249 грн</p>
+            </div>
+            <div class="cart-item-actions">
+              <div class="quantity-control">
+                <button class="qty-btn">−</button>
+                <span class="qty">1</span>
+                <button class="qty-btn">+</button>
+              </div>
+              <button class="btn-remove">🗑 Видалити</button>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="https://covers.openlibrary.org/b/isbn/9780451524935-M.jpg" alt="1984" />
+            <div class="cart-item-info">
+              <h4>1984</h4>
+              <p class="author">Джордж Орвелл</p>
+              <p class="item-price">199 грн</p>
+            </div>
+            <div class="cart-item-actions">
+              <div class="quantity-control">
+                <button class="qty-btn">−</button>
+                <span class="qty">2</span>
+                <button class="qty-btn">+</button>
+              </div>
+              <button class="btn-remove">🗑 Видалити</button>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <img src="https://covers.openlibrary.org/b/isbn/9780439708180-M.jpg" alt="Гаррі Поттер" />
+            <div class="cart-item-info">
+              <h4>Гаррі Поттер і філософський камінь</h4>
+              <p class="author">Дж. К. Роулінг</p>
+              <p class="item-price">299 грн</p>
+            </div>
+            <div class="cart-item-actions">
+              <div class="quantity-control">
+                <button class="qty-btn">−</button>
+                <span class="qty">1</span>
+                <button class="qty-btn">+</button>
+              </div>
+              <button class="btn-remove">🗑 Видалити</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="cart-summary">
+          <h3>Підсумок</h3>
+          <div class="summary-row"><span>Товари (4 шт):</span><span>947 грн</span></div>
+          <div class="summary-row"><span>Доставка:</span><span>Безкоштовно</span></div>
+          <div class="summary-row total"><span>Разом:</span><span>947 грн</span></div>
+          <button class="btn-order">Оформити замовлення</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4> КнигаЛенд</h4>
+        <p>Найбільший онлайн-магазин книг в Україні. Понад 5 000 найменувань у наявності.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Контакти</h4>
+        <ul>
+          <li> вул. Книжкова 12, Київ</li>
+          <li> +38 (044) 123-45-67</li>
+          <li> info@knygaland.ua</li>
+          <li> Пн–Пт: 9:00–18:00</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Навігація</h4>
+        <ul>
+          <li><a href="index.html">Каталог</a></li>
+          <li><a href="cart.html">Кошик</a></li>
+          <li><a href="account.html">Мій акаунт</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 КнигаЛенд. Усі права захищені.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
